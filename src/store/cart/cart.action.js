@@ -1,4 +1,4 @@
-import { createAction } from "../../utils/firebase/reducer/reducer.util";
+import { createAction } from "../../utils/reducer/reducer.util";
 import { CART_ACTION_TYPES } from "./cart.types";
 
 const addCartItem = (cartItems, productToAdd) => {
